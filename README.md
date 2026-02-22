@@ -2,7 +2,7 @@
 
 学习通（超星）作业自动化 Skill。
 
-**当前版本：v1.1.1**
+**当前版本：v1.1.2**
 
 ## 能力
 - 扫描作业入口、解析 doHomeWork URL
@@ -18,10 +18,10 @@ clawhub update xuexitong-homework-submit
 ```
 
 ## 致谢
-本项目特别感谢以下三个开源项目：
-- [requests](https://github.com/psf/requests)
-- [handright](https://github.com/Gsllchb/Handright)
-- [Pillow](https://github.com/python-pillow/Pillow)
+本项目感谢以下三个核心依赖/服务：
+- **HandWrite**（手写渲染能力）
+- **学习通 API**：`mooc1-api.chaoxing.com`
+- **超星图床上传接口**：`notice.chaoxing.com/pc/files/uploadNoticeFile`
 
 ## 仓库
 https://github.com/smallwhiteman/xuexitong-homework-submit-skill
