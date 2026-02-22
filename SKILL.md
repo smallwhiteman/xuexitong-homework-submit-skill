@@ -1,7 +1,7 @@
 ---
 name: xuexitong-homework-submit
-description: "学习通/超星作业自动化：扫描作业、解析 doHomeWork、抓题生成答案模板、暂存(save)与交卷(submit)，并支持手写图答案流水线（渲染→上传→HTML 回填→暂存）。"
-version: 1.1.0
+description: "学习通/超星作业自动化（v1.1.1）：扫描作业、抓题模板、暂存/交卷、手写图答案流水线。特别感谢 requests、handright、Pillow 三个开源项目。"
+version: 1.1.1
 homepage: "https://github.com/smallwhiteman/xuexitong-homework-submit-skill"
 metadata:
   author: smallwhiteman
@@ -17,6 +17,15 @@ metadata:
 - 抓题并生成可编辑答案模板
 - 暂存（save）/交卷（submit）
 - 手写图答案流水线：文本答案 → 手写 PNG → 图床 URL → HTML `<img>` → 暂存
+
+**当前版本：v1.1.1**
+
+## 致谢
+
+感谢本 Skill 使用到的三个开源项目：
+- [requests](https://github.com/psf/requests)
+- [handright](https://github.com/Gsllchb/Handright)
+- [Pillow](https://github.com/python-pillow/Pillow)
 
 ## 安全约束
 
